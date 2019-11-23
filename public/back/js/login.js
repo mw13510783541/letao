@@ -12,7 +12,7 @@ $(function () {
             validating: 'glyphicon glyphicon-refresh'
         },
 
-        
+
         //指定校验字段
         fields:{
             username:{
