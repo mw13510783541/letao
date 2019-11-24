@@ -33,7 +33,9 @@ li{
     margin-top: 20px;
 }
 
-
+.mb_20{
+    margin-bottom: 20px;
+}
 /*公共侧边栏*/
 .lt-aside{
     width: 180px;
