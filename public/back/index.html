@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.css">
     <link rel="stylesheet" href="lib/nprogress/nprogress.css">
     <link rel="stylesheet" href="css/common.css">
+    <style>
+        /*echarts样式*/
+        .echarts-1,
+        .echarts-2{
+            width: 48%;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
 
@@ -30,7 +38,7 @@
                 <a href="javascript:void(0)" class="category"><i
                         class="glyphicon glyphicon-list "></i><span>分类管理</span></a>
                 <div class="child" style="display:none">
-                    <a href="one.html" >一级分类</a>
+                    <a href="one.html">一级分类</a>
                     <a href="two.html">二级分类</a>
                 </div>
             </li>
@@ -61,6 +69,12 @@
             <li><a href="#">首页</a></li>
         </ol>
 
+        <!--echarts表-->
+        <div class="lt-content">
+            <div class="echarts-1  pull-left"></div>
+            <div class="echarts-2  pull-right"></div>
+        </div>
+
     </div>
 
 
@@ -80,7 +94,8 @@
                 <h4 class="modal-title">温馨提示</h4>
             </div>
             <div class="modal-body">
-                <p style="color:#A94442"><i class="glyphicon glyphicon-info-sign"></i>您确定要退出后台管理系统吗?</p>
+                <p style="color:#A94442"><i class="glyphicon glyphicon-info-sign"></i>您确定要退出后台管理系统吗?
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
@@ -95,6 +110,7 @@
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <script src="lib/nprogress/nprogress.js"></script>
+<script src="lib/echarts/echarts.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/index.js"></script>
 </body>
