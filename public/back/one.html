@@ -62,7 +62,7 @@
         </ol>
 
         <div class="lt-content">
-            <button class="btn btn-default mb_20">添加分类</button>
+            <button class="btn btn-default mb_20" id="addBtn">添加分类</button>
 
             <!--表格 -->
             <table class="table table-bordered table-hover text-center ">
@@ -86,6 +86,38 @@
             <ul id="paginator"></ul>
         </div>
 
+        <!--点击添加分类弹出模态框-->
+        <div class="modal fade" tabindex="-1" id="addModal">
+
+            <div class="modal-dialog modal-sm">
+                <!--内容-->
+                <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span
+                                    aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title">添加分类</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <form id="form">
+                            <div class="form-group">
+                                <input type="text" name="categoryName" class="form-control"
+                                       placeholder="添加分类名">
+                            </div>
+                            </form>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                            </button>
+                            <button type="submit" class="btn btn-primary" id="addone" form="form">确定</button>
+                        </div>
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
     </div>
 
 
