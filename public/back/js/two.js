@@ -148,7 +148,7 @@ $(function () {
     })
 
 
-    //注册表单校验成功事件
+    //6.注册表单校验成功事件
     $("#form").on("success.form.bv",function (e) {
         //阻止网页默认跳转
         e.preventDefault();
