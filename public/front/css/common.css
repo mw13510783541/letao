@@ -109,3 +109,30 @@ html,body{
     /*background-color: yellow;*/
     position: relative;
 }
+
+
+
+/*产品模块*/
+.lt_product{
+    padding: 10px;
+}
+
+.lt_product .lt_product_item{
+    float: left;
+    width: 48%;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px ;
+}
+
+.lt_product .lt_product_item:nth-child(odd){
+    margin-right: 4%;
+}
+
+.lt_product .lt_product_item a span:nth-child(1){
+    color: red;
+}
+.lt_product .lt_product_item a span:nth-child(2){
+    text-decoration: line-through;
+}
