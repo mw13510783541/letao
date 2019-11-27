@@ -1,0 +1,45 @@
+
+.item_box{
+    padding: 10px;
+    border-top: 1px solid #666666;
+}
+
+.lt_pro_price .price{
+    color: red;
+}
+
+.lt_pro_price .oldPrice{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.lt_size span{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 0px;
+}
+
+.lt_num .last{
+    font-size: 12px;
+}
+
+.lt-go-cart{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    background-color: #EFEFF4;
+    border-top: 1px solid red;
+    padding: 10px;
+}
+
+
+.lt_size span.current{
+    background-color: orange;
+}
